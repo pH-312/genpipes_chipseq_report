@@ -50,9 +50,6 @@ TMP: Until ATAC-seq pipeline is updated with deepTools:\
 --- Must specify "atacseq" as the 3rd argument when submitting the job (defaults to "chipseq" if not specified).
 
 ### Steps
-Submit directly to the SLURM with 2-6 positional arguments (Option 1) or indirectly using `generate_report_wrapper.sh` (Option 2).
-
-**Option 1: Submit directly to the SLURM**
 1. Go to `report` directory of GenPipes' output.
 2. Submit directly to the SLURM with 2/3 mandatory positional arguments:\
 --- ARG1: Project ID          (mandatory)\

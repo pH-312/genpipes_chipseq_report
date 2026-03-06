@@ -160,7 +160,7 @@ fi
 readset_name=$(basename "$(echo "$genpipes_command" | sed -E 's/.*-r[=[:space:]]*([^[:space:]]+).*/\1/')")
 
 # - ReportingFigures & R Markdown ----------------------------------------
-rf_dir="/lustre06/project/6007512/C3G/projects/ReportingFigures/genpipes_chipseq_report"
+rf_dir="/path_to/ReportingFigures/genpipes_chipseq_report" #TO CHANGE DURING SET-UP
 img_dir="$rf_dir/report_images"
 
 if [[ "$seq_type" == "chipseq" ]]; then

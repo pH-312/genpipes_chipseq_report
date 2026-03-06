@@ -21,20 +21,20 @@ To understand differences between `genpipes_chipseq_report` & `genpipes_chipseq_
 ```bash
 ReportingFigures
   ├── README.md
-  ├── genpipes_chipseq_report
-  │   ├── ATAC-seq_Report.Rmd
-  │   ├── ChIP-seq_Peak_Annotations_Tab.Rmd
-  │   ├── ChIP-seq_Report.Rmd
-  │   ├── generate_report.sh
-  │   └── report_images
-  │       ├── c3g_logo.png
-  │       ├── igv_group_autoscale.png
-  │       ├── igv_load_tracks.png
-  │       ├── igv_navigate.png
-  │       ├── igv_ref_genome1.png
-  │       ├── igv_ref_genome2.png
-  │       ├── igv_ref_genome_annotation1.png
-  │       └── igv_ref_genome_annotation2.png
+  └── genpipes_chipseq_report
+      ├── ATAC-seq_Report.Rmd
+      ├── ChIP-seq_Peak_Annotations_Tab.Rmd
+      ├── ChIP-seq_Report.Rmd
+      ├── generate_report.sh
+      └── report_images
+          ├── c3g_logo.png
+          ├── igv_group_autoscale.png
+          ├── igv_load_tracks.png
+          ├── igv_navigate.png
+          ├── igv_ref_genome1.png
+          ├── igv_ref_genome2.png
+          ├── igv_ref_genome_annotation1.png
+          └── igv_ref_genome_annotation2.png
 ```
 3. On line 163 of `generate_report.sh`, edit the path of `rf_dir` accordingly.
 
